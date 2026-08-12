@@ -1,0 +1,17 @@
+Source: https://reachy.ai/blog/reachy-vs-we-connect
+Reachy vs We-Connect (2026)
+
+We-Connect is presented as a cloud sequencer, while Reachy is presented as a local outreach agent with an agent layer.
+
+Key comparison:
+Reachy runs on the user's machine and IP; We-Connect runs in the cloud.
+Reachy pricing: Free to $39/month. We-Connect: about $69/month per seat.
+Reachy sources leads from signals such as posts, groups, followers and Slack; We-Connect uses search-based sourcing.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; We-Connect has AI features described as add-ons.
+Reachy includes lead scoring; the comparison says We-Connect does not.
+Reachy includes multi-account rotation; We-Connect uses per-seat pricing.
+Reachy has a 14-day trial plus free monitoring; We-Connect is described as trial-only.
+
+The article credits We-Connect for a clean web app, unified inbox and granular delay and limit controls.
+Reachy's differentiator is local-first execution, with warm-up and human-pacing limits presented as defaults. It also says Reachy builds lists from live buying signals, scores contacts against an ICP and prioritizes good fits.
+The article recommends We-Connect for users committed to a cloud tool and wanting careful pacing controls, and Reachy for local execution, signal targeting and scoring.

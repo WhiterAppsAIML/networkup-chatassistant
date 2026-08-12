@@ -1,0 +1,16 @@
+Source: https://reachy.ai/blog/reachy-vs-heyreach
+Reachy vs HeyReach (2026)
+
+Reachy is presented as a local AI LinkedIn outreach agent for smaller agencies, while HeyReach is a cloud platform whose unlimited-sender flat pricing is aimed at larger lead-generation agencies.
+
+Key comparison:
+Reachy Agency: $179/month for 15 seats, flat. HeyReach: about $749/month for unlimited senders, flat. The article positions Reachy for 5–15 senders and HeyReach as more economical around 30+ senders.
+Reachy runs on the customer's machines and IPs; HeyReach runs in the cloud. Reachy provides local per-client data isolation; HeyReach uses a shared cloud workspace.
+Reachy sources leads from signals such as posts, groups, followers and Slack; HeyReach uses list imports and search.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the customer's own key with 0% markup; HeyReach has built-in AI priced into the product.
+Reachy includes lead scoring / ICP fit; the comparison says HeyReach does not.
+Reachy offers direct founder support; the article reports 24–48 hour response times in public HeyReach reviews.
+Reachy offers a 14-day trial plus free monitoring; HeyReach is described as trial-only.
+
+The article describes HeyReach as a strong option for agencies with 20–50+ senders needing unlimited senders, a mature unified inbox, API and white-label options. It describes Reachy as a fit for agencies with 5–15 client accounts wanting local execution, per-client isolation, BYOK AI and exportable reporting.
+The article also emphasizes Reachy's signal-based prospect sourcing and ICP scoring before outreach.

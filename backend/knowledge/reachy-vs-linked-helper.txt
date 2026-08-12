@@ -1,0 +1,16 @@
+Source: https://reachy.ai/blog/reachy-vs-linked-helper
+Reachy vs Linked Helper (2026)
+
+Reachy and Linked Helper are both described as local tools that run on the user's machine and IP.
+
+Key comparison:
+Reachy pricing: Free to $39/month. Linked Helper: about $15–45/month.
+Reachy sources leads from signals such as posts, groups, followers, Slack and events; Linked Helper uses search pages and some events/groups.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; Linked Helper is described as using template variables.
+Reachy includes lead scoring / ICP fit; the comparison says Linked Helper does not.
+Reachy uses a guided campaign funnel UI; Linked Helper is described as having a steep learning curve.
+Both offer a 14-day trial.
+
+The article describes Linked Helper as inexpensive, battle-tested and equipped with a large action library.
+Reachy's difference is that it acts more like an agent: it can start from a signal, build a prospect list, score contacts against an ICP, write personalized messages with supported AI providers and run sequences with warm-up and safety limits.
+The article recommends Linked Helper for users who want low pricing and enjoy configuring automation chains, and Reachy for users wanting local execution plus automated sourcing, scoring and message writing.

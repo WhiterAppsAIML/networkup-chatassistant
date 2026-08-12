@@ -1,0 +1,5 @@
+GitHub is a cloud-based platform used for software development and version control.
+
+GitHub allows developers to collaborate using Git repositories.
+
+GitHub is owned by Microsoft.

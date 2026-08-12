@@ -1,0 +1,16 @@
+Source: https://reachy.ai/blog/reachy-vs-expandi
+Reachy vs Expandi (2026)
+
+Reachy is presented as a local AI agent, while Expandi is presented as a cloud LinkedIn automation platform.
+
+Key comparison:
+Reachy runs on the user's machine and IP; Expandi runs in the cloud with a datacenter IP.
+Reachy pricing: Free to $39/month for Solo. Expandi: about $99/month per seat.
+Reachy has signal-based lead sourcing from posts, groups, followers and Slack; Expandi's signal sourcing is described as limited.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; Expandi has built-in AI priced into the product.
+Reachy includes lead scoring / ICP fit; the comparison says Expandi does not.
+Reachy offers a 14-day trial plus free monitoring; Expandi is described as trial-only.
+
+The article credits Expandi for agency-friendly features, white-label options, mature onboarding and country-based dedicated IPs.
+Reachy's differentiator is local execution, with automation happening on the user's computer and IP, plus warm-up and daily limits. It also describes Reachy as sourcing buying signals, scoring prospects against an ICP and using the user's own AI provider key.
+The article recommends Expandi for white-label cloud automation across many client accounts, and Reachy for local execution, signal-based targeting, lead scoring and flat pricing.

@@ -1,0 +1,17 @@
+Source: https://reachy.ai/blog/reachy-vs-waalaxy
+Reachy vs Waalaxy (2026)
+
+Waalaxy is presented as a freemium Chrome extension with LinkedIn and email sequences, while Reachy is presented as a desktop AI agent.
+
+Key comparison:
+Reachy is a desktop app with its own embedded browser; Waalaxy is a Chrome extension plus cloud.
+Reachy pricing: Free to $39/month. Waalaxy is freemium with per-seat tiers.
+Reachy sources leads from signals such as posts, groups, followers and Slack; Waalaxy uses search imports.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; Waalaxy has a built-in assistant.
+Reachy includes lead scoring / ICP fit; the comparison says Waalaxy does not.
+Reachy includes multi-account rotation; Waalaxy uses per-seat pricing.
+Reachy offers a 14-day trial plus free monitoring; Waalaxy has a free plan with limited quotas.
+
+The article says Waalaxy's strengths include easy onboarding, importing a search and launching a sequence, plus LinkedIn and email in one product.
+Reachy's difference is a desktop application with an embedded browser, local execution, warm-up and human pacing. It starts from signals such as engagement, group membership and followers, then scores prospects against an ICP before outreach.
+The article recommends Waalaxy for a fast start with light LinkedIn and email sequences, and Reachy for signal-based targeting, buyer scoring and local automation.

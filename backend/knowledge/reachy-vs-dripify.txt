@@ -1,0 +1,16 @@
+Source: https://reachy.ai/blog/reachy-vs-dripify
+Reachy vs Dripify (2026)
+
+Reachy is presented as a local AI agent, while Dripify is presented as a cloud LinkedIn drip-campaign platform.
+
+Key comparison:
+Reachy runs on the user's machine and IP; Dripify runs in the cloud.
+Reachy pricing: Free to $39/month. Dripify: about $39–79/month per seat.
+Reachy sources leads from signals including posts, groups, followers, Slack and events; Dripify starts from LinkedIn search URLs.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; Dripify is described as using basic templates and variables.
+Reachy includes lead scoring; the comparison says Dripify does not.
+Reachy has a 14-day trial plus free monitoring; Dripify has a 7-day trial.
+
+The article says Dripify's strengths include a sequence builder, drag-and-drop drips, A/B testing and team dashboards.
+It contrasts Dripify's search-URL starting point with Reachy's signal-based prospecting, and Dripify's cloud login with Reachy's local execution behind the user's own IP.
+The article recommends Dripify for a simple cloud drip workflow and Reachy for signal-based targeting, lead scoring, BYOK AI and local automation.

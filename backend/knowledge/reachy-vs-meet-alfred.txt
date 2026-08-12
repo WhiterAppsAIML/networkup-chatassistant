@@ -1,0 +1,17 @@
+Source: https://reachy.ai/blog/reachy-vs-meet-alfred
+Reachy vs Meet Alfred (2026)
+
+Meet Alfred is presented as a multichannel cloud tool, while Reachy is presented as a local AI agent focused deeply on LinkedIn.
+
+Key comparison:
+Reachy runs on the user's machine and IP; Meet Alfred runs in the cloud.
+Reachy pricing: Free to $39/month. Meet Alfred: about $39–59/month per seat.
+Reachy focuses on deep LinkedIn functionality with CRM sync; Meet Alfred supports LinkedIn, email and X.
+Reachy sources leads from signals such as posts, groups, followers and Slack; Meet Alfred uses search-based sourcing.
+Reachy supports GPT-5, Claude Fable 5 and Gemini using the user's own key with 0% markup; Meet Alfred uses built-in templates.
+Reachy includes lead scoring; the comparison says Meet Alfred does not.
+Reachy has a 14-day trial plus free monitoring; Meet Alfred is described as trial-only.
+
+The article says Meet Alfred's strength is breadth across LinkedIn, email and X, with a large template library.
+Reachy's difference is local LinkedIn automation, signal-based sourcing, ICP scoring, Open Profile InMails, company messaging, multi-account rotation and warm-up. It also says Reachy can sync enriched contacts to HubSpot, Salesforce, Pipedrive, Make, Zapier and n8n.
+The article recommends Meet Alfred for multichannel breadth and Reachy when LinkedIn is the main pipeline and local execution, targeting and safety are priorities.
