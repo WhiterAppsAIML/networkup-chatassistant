@@ -1,279 +1,353 @@
-NETWORKUP / LINKEDIN AUTOMATION FAQ
+NETWORKUP.IO FAQ KNOWLEDGE BASE
+Source: https://networkup.io/
+Prepared from the current NetworkUp.io website content.
 
 ========================================
-1. GETTING STARTED
+1. ABOUT NETWORKUP
 ========================================
 
-Q: What is LinkedIn automation?
+Q: What is NetworkUp.io?
 
 A:
-LinkedIn automation helps users automate repetitive outreach activities such as finding prospects, sending connection requests, following up with leads, and managing outreach campaigns.
+NetworkUp.io is an AI-powered LinkedIn growth and outreach platform designed to help users automate LinkedIn networking, reach relevant decision-makers, manage conversations, and turn connections into opportunities.
 
-Q: How does the platform work?
-
-A:
-The typical workflow is:
-1. Connect a LinkedIn account.
-2. Create and configure a campaign.
-3. Add or find prospects.
-4. Start the campaign.
-5. Monitor campaign activity and responses.
-
-Q: How do I create my first campaign?
+Q: Who is NetworkUp built for?
 
 A:
-Create a campaign, select the target prospects, configure the outreach sequence and personalization, review the settings, and start the campaign.
+NetworkUp is positioned for sales teams, recruiters, agencies, founders, consultants, B2B marketing teams, SaaS companies, enterprise teams, revenue teams, fractional CMOs, SDRs and BDRs.
 
-Q: Can I manage multiple LinkedIn accounts?
+Q: What does NetworkUp help users do?
 
 A:
-The platform is designed to support multi-account outreach and account management. Exact account limits depend on the plan and configuration.
+NetworkUp helps users find relevant prospects, automate outreach, manage LinkedIn conversations, build campaigns, analyze campaign performance, enrich leads, and identify high-intent opportunities.
 
 ========================================
-2. LINKEDIN SAFETY
+2. HOW NETWORKUP WORKS
 ========================================
 
-Q: Is LinkedIn automation safe?
+Q: How does the NetworkUp workflow work?
 
 A:
-LinkedIn automation should be configured carefully and used within appropriate platform limits. Recommended safety settings, pacing and account limits should be followed to reduce the risk of account restrictions.
+The website describes a three-step workflow:
+1. Define your Ideal Customer Profile (ICP).
+2. Launch multi-step sequences with personalized messaging.
+3. Convert replies to revenue and sync interactions back to the CRM.
 
-Q: Can LinkedIn restrict an account?
-
-A:
-Yes. LinkedIn may restrict accounts that perform activity that violates its policies or appears unusual. Users should follow LinkedIn's rules and use conservative automation settings.
-
-Q: Can I pause a campaign?
+Q: Can I create automated LinkedIn campaigns?
 
 A:
-Campaigns should be paused when necessary to stop automated outreach. The exact pause controls depend on the platform interface.
+Yes. NetworkUp provides a Campaign Builder with drag-and-drop workflow sequences, intelligent branching logic and delays.
 
-Q: What should I do if LinkedIn asks for verification?
+Q: Can I personalize outreach messages?
 
 A:
-Pause automated activity and complete the required LinkedIn verification before continuing.
+Yes. NetworkUp supports personalized messaging, and its Growth plan lists advanced AI personalization.
+
+Q: Can I use multi-step sequences?
+
+A:
+Yes. NetworkUp supports multi-step sequences for connecting, following up and nurturing prospects.
 
 ========================================
-3. CAMPAIGNS & AUTOMATION
+3. SMART PROSPECTING
 ========================================
 
-Q: What can I automate?
+Q: What is Smart Prospecting?
 
 A:
-The platform can be used for LinkedIn outreach workflows such as prospecting, connection requests, follow-up messaging and campaign sequences, depending on the available platform features.
+Smart Prospecting uses AI filters to identify high-intent leads based on real-time professional signals.
 
-Q: Can I automate follow-up messages?
-
-A:
-Yes, follow-up messaging can be configured as part of an outreach sequence where supported.
-
-Q: Can I personalize messages?
+Q: How does NetworkUp help find leads?
 
 A:
-Yes, outreach messages can be personalized using available prospect information and campaign configuration.
+NetworkUp uses AI-assisted prospecting to identify leads that match a user's ideal customer profile and to surface high-intent opportunities.
 
-Q: Can I create multi-step sequences?
-
-A:
-Yes, multi-step outreach sequences can be configured where supported by the platform.
-
-Q: Can I stop messaging when someone replies?
+Q: What is an Ideal Customer Profile (ICP)?
 
 A:
-This should be configured as a campaign condition where the platform supports reply-based stopping rules.
+An ICP describes the characteristics and criteria of the type of customer or prospect a business wants to target.
 
 ========================================
-4. LEAD GENERATION
+4. CAMPAIGNS & AUTOMATION
 ========================================
 
-Q: How do I find leads?
+Q: What is Campaign Builder?
 
 A:
-Leads can be sourced using available LinkedIn searches, imports and platform-specific lead-generation features.
+Campaign Builder is a drag-and-drop workflow tool for creating outreach sequences with intelligent branching logic and delays.
 
-Q: Can I import leads?
-
-A:
-Lead import capabilities depend on the supported import formats and platform configuration.
-
-Q: Can I segment leads?
+Q: Can NetworkUp optimize campaigns?
 
 A:
-Leads can be organized into relevant groups or campaigns based on the available targeting and segmentation features.
+Yes. The website says its AI can analyze campaign performance and suggest improvements. It also lists an AI Campaign Optimizer that analyzes campaigns before launch and recommends improvements intended to improve acceptance and reply rates.
 
-Q: Can I remove duplicate leads?
+Q: What is Campaign Simulator?
 
 A:
-Duplicate handling depends on the platform's lead-management and import functionality.
+Campaign Simulator is described as a tool that predicts campaign performance before launch using AI insights and historical outreach data.
+
+Q: Can NetworkUp automate follow-ups?
+
+A:
+Yes. The website describes multi-step sequences for connecting, following up and nurturing with personalized messaging. The site also announces Smart AI Follow-ups as a feature.
 
 ========================================
-5. INBOX & REPLIES
+5. LINKEDIN SAFETY
 ========================================
 
-Q: Where can I see replies?
+Q: Does NetworkUp have account protection?
 
 A:
-Replies should be available through the platform's inbox or conversation-management interface where supported.
+Yes. NetworkUp lists Account Protection and describes proprietary safety systems intended to keep LinkedIn accounts secure and active.
 
-Q: Can my team manage replies?
-
-A:
-Team-based reply management depends on the workspace and team-management features available on the platform.
-
-Q: Can I track conversations?
+Q: Is NetworkUp guaranteed to prevent LinkedIn restrictions?
 
 A:
-Conversation tracking can be used to monitor prospect interactions and follow-up activity where supported.
+The website describes safety and account-protection systems, but it should not be treated as a guarantee that an account can never be restricted. Users should follow LinkedIn's policies and use automation responsibly.
+
+Q: What should I do if I have a LinkedIn account-safety concern?
+
+A:
+Review account-protection and campaign settings, follow LinkedIn's policies, and contact NetworkUp support when additional assistance is needed.
 
 ========================================
-6. ANALYTICS & REPORTING
+6. INBOX & RELATIONSHIPS
 ========================================
 
-Q: What campaign statistics should I monitor?
+Q: What is the Unified Inbox?
 
 A:
-Important outreach metrics include invitations sent, acceptance rate, messages sent, reply rate and campaign performance.
+Unified Inbox lets users manage LinkedIn conversations across multiple accounts in one central view.
 
-Q: How can I improve my reply rate?
-
-A:
-Improve targeting, personalize messages, use relevant messaging, test different sequences and monitor campaign performance.
-
-Q: Can I monitor campaign performance?
+Q: What is Relationship Intelligence?
 
 A:
-Campaign performance can be monitored using the analytics and reporting features available in the platform.
+Relationship Intelligence provides contextual insights about leads before outreach. NetworkUp also says it analyzes engagement, can help predict buying intent, and recommends next actions using historical patterns.
+
+Q: Can NetworkUp analyze conversations?
+
+A:
+Yes. The AI assistant can analyze conversations for sentiment, key topics and response patterns.
 
 ========================================
-7. INTEGRATIONS
+7. LEAD ENRICHMENT
 ========================================
 
-Q: Does the platform support CRM integrations?
+Q: What is Lead Enrichment?
 
 A:
-CRM integration availability depends on the integrations supported by the platform.
+Lead Enrichment automatically verifies emails and phone numbers for ideal targets.
 
-Q: Is an API available?
-
-A:
-API availability depends on the platform's current technical capabilities and plan.
-
-Q: Does the platform support webhooks?
+Q: Can NetworkUp identify buying signals?
 
 A:
-Webhook support depends on the available integration and API functionality.
+Yes. The AI assistant can find buying signals and identify leads showing intent and readiness to engage.
+
+Q: Can NetworkUp research target accounts?
+
+A:
+Yes. The AI assistant can research companies, decision-makers and growth opportunities.
 
 ========================================
-8. TEAMS & AGENCIES
+8. ANALYTICS & REPORTING
 ========================================
 
-Q: Can agencies manage multiple accounts?
+Q: What is Campaign Analytics?
 
 A:
-Multi-account management is an important use case for agencies and is supported where available in the platform.
+Campaign Analytics provides metrics related to conversion rates, engagement and team performance.
 
-Q: Can I manage multiple clients?
-
-A:
-Client management depends on the workspace, account-management and agency features available on the platform.
-
-Q: Can I rotate outreach across multiple accounts?
+Q: Can NetworkUp provide weekly reports?
 
 A:
-Multi-account outreach and account rotation depend on the platform's supported campaign and account-management features.
+Yes. The AI assistant can generate weekly performance summaries and actionable recommendations.
+
+Q: What metrics can NetworkUp show?
+
+A:
+The website dashboard demonstrates metrics such as new connections, messages sent, reply rate, active campaigns, qualified leads, sent messages, accepted connections, campaign replies and CTR.
+
+Note:
+Dashboard numbers shown on the website are example/demo values and should not be treated as a user's actual account data.
 
 ========================================
-9. PRICING & BILLING
+9. AI ASSISTANT
 ========================================
 
-Q: What pricing plans are available?
+Q: What can the NetworkUp AI assistant do?
 
 A:
-Pricing depends on the current plans offered by the platform. Refer to the latest official pricing information for exact prices and limits.
+The website lists AI capabilities including generating leads, optimizing campaigns, researching target accounts, analyzing conversations, finding buying signals and producing weekly reports.
 
-Q: Is there a free trial?
-
-A:
-Trial availability depends on the current plan and promotional offering.
-
-Q: Is there agency pricing?
+Q: Which AI models are shown as supported?
 
 A:
-Agency pricing depends on the current plans and commercial options offered by the platform.
+The NetworkUp website displays ChatGPT, Claude, Grok, Gemini, Perplexity and NotebookLM in its AI Prompt Assistant area.
 
-Q: How does pricing work?
+Q: Can the assistant answer questions about NetworkUp?
 
 A:
-Pricing may depend on factors such as seats, LinkedIn accounts, usage or selected plan. Exact pricing should be confirmed from the current official pricing information.
+Yes. The website describes an AI Prompt Assistant that can answer questions about NetworkUp, features, use cases and best practices.
 
 ========================================
-10. TROUBLESHOOTING
+10. INTEGRATIONS
 ========================================
 
-Q: Why is my campaign paused?
+Q: Does NetworkUp integrate with HubSpot?
 
 A:
-Check the campaign status, account connection, configured limits and any warnings shown by the platform.
+Yes. The website lists native HubSpot integration.
 
-Q: Why are invitations not being sent?
-
-A:
-Check whether the campaign is active, the LinkedIn account is connected, daily limits have been reached, or the campaign has encountered an error.
-
-Q: Why are messages delayed?
+Q: Does NetworkUp integrate with Salesforce?
 
 A:
-Messages may be delayed because of configured schedules, pacing, campaign limits or account conditions.
+Yes. The website lists native Salesforce integration.
 
-Q: Why can't I connect my LinkedIn account?
-
-A:
-Check the account credentials, connection status, browser/session state and any verification requirements.
-
-Q: What should I do if prospects are missing?
+Q: Does NetworkUp support Zapier?
 
 A:
-Check the selected lead source, filters, imports, campaign targeting and whether the prospects meet the configured criteria.
+Yes. The website states that NetworkUp connects with 2,000+ apps through Zapier.
+
+Q: Does NetworkUp provide an API?
+
+A:
+Yes. The website links to API Documentation and lists a read-only API on the Growth plan.
+
+Q: Does NetworkUp support webhooks?
+
+A:
+Yes. Custom webhooks are listed on the Enterprise plan.
 
 ========================================
-11. COMMON PLATFORM QUESTIONS
+11. PRICING & PLANS
 ========================================
 
-Q: What are the main utilities of the platform?
+Q: What is the NetworkUp Starter plan?
 
 A:
-The platform can help with prospect discovery, LinkedIn outreach, campaign automation, lead management, follow-ups, analytics and account management, depending on the available features.
+Starter is listed at $21/month. It includes 1 LinkedIn account, 500 messages per month, daily activity reports, basic personalization, a basic lead database and email support.
 
-Q: What AI models can be used?
-
-A:
-AI model availability depends on the platform configuration. The existing knowledge base contains information about supported AI models and their usage.
-
-Q: What is lead scoring?
+Q: What is the NetworkUp Growth plan?
 
 A:
-Lead scoring helps evaluate prospects based on their relevance to a defined target profile or Ideal Customer Profile (ICP).
+Growth is listed at $59/month. It includes 5 LinkedIn accounts, multi-workspace, advanced AI personalization, sequence branching, 2-variant A/B testing, full CRM sync, a read-only API, an extended database, a shared success manager, and email and chat support.
 
-Q: What is an Ideal Customer Profile?
+Q: What is the NetworkUp Enterprise plan?
 
 A:
-An Ideal Customer Profile (ICP) describes the characteristics of the type of company or prospect that is most relevant to a business.
+Enterprise is listed at $129/month. It includes custom organization limits, SSO/SAML setup, a custom logic engine, regional compliance, priority execution, custom webhooks, an on-prem hosting option, audit logging, 24/7 priority support and technical onboarding.
+
+Q: Does NetworkUp offer yearly billing?
+
+A:
+The pricing section displays a yearly option marked as 20% off.
+
+Q: Does NetworkUp offer a free trial?
+
+A:
+The website advertises a 14-day free trial and states that no credit card is required to start.
+
+Q: Does NetworkUp offer agency or enterprise support?
+
+A:
+Yes. The Enterprise tier is designed for organizations at scale and includes technical onboarding, priority support, custom integrations and other enterprise-oriented capabilities.
 
 ========================================
-12. BEST PRACTICES
+12. TEAMS & SCALE
 ========================================
 
-Q: How can I improve my LinkedIn outreach?
+Q: Can NetworkUp support multiple LinkedIn accounts?
 
 A:
-Use relevant targeting, personalize messages, create clear multi-step sequences, monitor campaign performance and adjust campaigns based on results.
+Yes. The Growth plan lists 5 LinkedIn accounts, while Enterprise offers custom organization limits.
 
-Q: How often should I monitor campaigns?
-
-A:
-Campaigns should be monitored regularly to identify issues, review performance and make necessary adjustments.
-
-Q: What should I check before starting a campaign?
+Q: Does NetworkUp support multiple workspaces?
 
 A:
-Review the target audience, prospect list, message personalization, sequence, account connection, safety settings and campaign limits before starting.
+Yes. Multi-workspace support is listed on the Growth plan.
+
+Q: Does NetworkUp support enterprise organizations?
+
+A:
+Yes. Enterprise is designed for organizations at scale and includes custom organization limits, SSO/SAML setup, custom logic, regional compliance, custom webhooks, on-prem hosting options and audit logging.
+
+========================================
+13. SUPPORT
+========================================
+
+Q: What support is available on the Starter plan?
+
+A:
+Starter includes email support.
+
+Q: What support is available on the Growth plan?
+
+A:
+Growth includes a shared success manager plus email and chat support.
+
+Q: What support is available on Enterprise?
+
+A:
+Enterprise includes 24/7 priority support and technical onboarding.
+
+Q: Can I talk to the NetworkUp team?
+
+A:
+Yes. The website provides options to contact the team, book a strategy session and talk to sales.
+
+========================================
+14. COMMON FAQ / QUICK QUESTIONS
+========================================
+
+Q: How does smart prospecting work?
+
+A:
+Smart Prospecting uses AI filters to identify high-intent leads based on real-time professional signals.
+
+Q: What makes NetworkUp different?
+
+A:
+NetworkUp combines AI-assisted prospecting, campaign automation, conversation management, analytics, relationship intelligence, lead enrichment and CRM integrations in one platform.
+
+Q: What integrations does NetworkUp support?
+
+A:
+NetworkUp lists HubSpot and Salesforce integrations and connectivity with 2,000+ apps through Zapier. Growth also includes a read-only API, while Enterprise includes custom webhooks.
+
+Q: What is the easiest way to start?
+
+A:
+The website encourages users to start a 14-day free trial without a credit card, define an ICP, build a campaign and begin outreach.
+
+========================================
+15. PRODUCT COMPARISON QUESTIONS
+========================================
+
+Q: Does NetworkUp have comparison pages?
+
+A:
+Yes. The NetworkUp website has comparison sections for Waalaxy, Dripify, Expandi, Apollo.io and Sales Navigator.
+
+Q: Can I ask NetworkUp vs Waalaxy?
+
+A:
+Yes. The knowledge base can support comparison questions when relevant NetworkUp and competitor information is available.
+
+Q: Can I ask NetworkUp vs Dripify?
+
+A:
+Yes. NetworkUp provides a comparison page for Dripify and the RAG knowledge base can use comparison content when it has been indexed.
+
+Q: Can I ask NetworkUp vs Expandi?
+
+A:
+Yes. NetworkUp provides a comparison page for Expandi and comparison questions can be answered when the relevant source content is available.
+
+========================================
+SOURCE NOTE
+========================================
+
+Primary source:
+https://networkup.io/
+
+Pricing and feature information should be treated as time-sensitive. When current pricing changes, update this file rather than relying on older pricing information.
