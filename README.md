@@ -72,55 +72,52 @@ networkup-chatassistant/
 │
 ├── ai-chat-assistant.jsx
 ├── README.md
+├── package.json
 ├── package-lock.json
+├── tsconfig.json
+├── .env
 │
-└── backend/
-    │
-    ├── package.json
-    ├── tsconfig.json
-    ├── .env
-    │
-    ├── knowledge/
-    │   ├── faqs.txt
-    │   ├── reachy-vs-heyreach.txt
-    │   ├── reachy-vs-expandi.txt
-    │   ├── reachy-vs-dripify.txt
-    │   ├── reachy-vs-linked-helper.txt
-    │   ├── reachy-vs-meet-alfred.txt
-    │   ├── reachy-vs-we-connect.txt
-    │   └── reachy-vs-waalaxy.txt
-    │
-    ├── src/
-    │   ├── app.ts
-    │   │
-    │   ├── config/
-    │   │   └── config.ts
-    │   │
-    │   ├── controllers/
-    │   │   ├── chatController.ts
-    │   │   ├── retrievalController.ts
-    │   │   └── uploadController.ts
-    │   │
-    │   ├── middleware/
-    │   │   └── uploadMiddleware.ts
-    │   │
-    │   ├── routes/
-    │   │   ├── chatRoutes.ts
-    │   │   ├── retrievalRoutes.ts
-    │   │   └── uploadRoutes.ts
-    │   │
-    │   ├── services/
-    │   │   ├── chatService.ts
-    │   │   ├── embeddingCache.ts
-    │   │   ├── embeddingService.ts
-    │   │   ├── geminiService.ts
-    │   │   ├── ragService.ts
-    │   │   ├── similarityService.ts
-    │   │   └── textChunker.ts
-    │   │
-    │   └── types/
-    │
-    └── uploads/
+├── knowledge/
+│   ├── faqs.txt
+│   ├── reachy-vs-heyreach.txt
+│   ├── reachy-vs-expandi.txt
+│   ├── reachy-vs-dripify.txt
+│   ├── reachy-vs-linked-helper.txt
+│   ├── reachy-vs-meet-alfred.txt
+│   ├── reachy-vs-we-connect.txt
+│   └── reachy-vs-waalaxy.txt
+│
+├── src/
+│   ├── app.ts
+│   │
+│   ├── config/
+│   │   └── config.ts
+│   │
+│   ├── controllers/
+│   │   ├── chatController.ts
+│   │   ├── retrievalController.ts
+│   │   └── uploadController.ts
+│   │
+│   ├── middleware/
+│   │   └── uploadMiddleware.ts
+│   │
+│   ├── routes/
+│   │   ├── chatRoutes.ts
+│   │   ├── retrievalRoutes.ts
+│   │   └── uploadRoutes.ts
+│   │
+│   ├── services/
+│   │   ├── chatService.ts
+│   │   ├── embeddingCache.ts
+│   │   ├── embeddingService.ts
+│   │   ├── geminiService.ts
+│   │   ├── ragService.ts
+│   │   ├── similarityService.ts
+│   │   └── textChunker.ts
+│   │
+│   └── types/
+│
+└── uploads/
 ```
 
 ---
@@ -459,7 +456,7 @@ PDF and DOCX ingestion are not part of the current first-stage implementation.
 Create:
 
 ```text
-backend/.env
+.env
 ```
 
 Example:
@@ -489,7 +486,7 @@ uploads/
 Open a terminal in:
 
 ```text
-networkup-chatassistant/backend
+networkup-chatassistant
 ```
 
 Install dependencies:
