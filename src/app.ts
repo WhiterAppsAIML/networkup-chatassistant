@@ -40,7 +40,7 @@ async function startServer() {
     await initializeEmbeddingCache();
 
     const PORT =
-        Number(process.env.PORT) || 3000;
+        Number(process.env.PORT) || 3004;
 
     app.listen(PORT, () => {
 

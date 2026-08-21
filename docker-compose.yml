@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: networkup-rag-backend
     ports:
-      - "3004:3000"
+      - "3004:3004"
     env_file:
       - .env
     environment:
