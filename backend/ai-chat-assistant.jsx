@@ -262,24 +262,14 @@ const FAQ_QUESTIONS = [
    CALL BACKEND
 ========================================================= */
 
-async function callClaude({
-  system,
-  message,
-  useWebSearch = false,
-}) {
+async function callAssistant(message) {
   const res = await fetch(`${RAG_API_URL}/chat`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-
     body: JSON.stringify({
-      message: `${system}
-
-User request:
-${message}
-
-Web search requested: ${useWebSearch}`,
+      query: message,
     }),
   });
 
@@ -287,13 +277,13 @@ Web search requested: ${useWebSearch}`,
 
   if (!res.ok || !data.success) {
     throw new Error(
+      data?.error ||
       data?.response ||
-        data?.error ||
-        'API request failed'
+      'API request failed'
     );
   }
 
-  return data.response || '';
+  return data;
 }
 
 /* =========================================================
@@ -343,16 +333,19 @@ async function classifyIntent(query) {
   const system = `Classify the user message into exactly one of these categories:
 
 ${INTENT_KEYS.join('\n')}
-
 general
 
 Reply with ONLY the category key, lowercase, nothing else.`;
 
   try {
-    const raw = await callClaude({
-      system,
-      message: query,
-    });
+    const data = await callAssistant(
+      `${system}
+
+User request:
+${query}`
+    );
+
+    const raw = data.response || '';
 
     const key = raw
       .trim()
@@ -370,86 +363,36 @@ Reply with ONLY the category key, lowercase, nothing else.`;
 ========================================================= */
 
 function AssistantBubble({ msg }) {
-  const skill =
-    SKILLS[msg.intent] || SKILLS.general;
-
-  const Icon = skill.icon;
-
   return (
-    <div
-      className="bg-white border border-slate-200 rounded-2xl rounded-bl-sm overflow-hidden"
-      style={{
-        borderLeft: `3px solid ${skill.accent}`,
-      }}
-    >
+    <div className="bg-white border border-slate-200 rounded-2xl rounded-bl-sm overflow-hidden">
       <div className="flex items-center gap-2 px-4 pt-3">
-        <Icon
-          className="w-3.5 h-3.5"
-          style={{ color: skill.accent }}
-        />
+        <Sparkles className="w-3.5 h-3.5 text-slate-500" />
 
-        <span
-          className="font-mono text-xs uppercase tracking-wide"
-          style={{ color: skill.accent }}
-        >
-          {skill.label}
+        <span className="font-mono text-xs uppercase tracking-wide text-slate-500">
+          NetworkUp Assistant
         </span>
       </div>
 
       <div className="px-4 py-3">
-
-        {/* Main response */}
         <p className="text-sm text-slate-800 leading-relaxed whitespace-pre-line">
           {msg.response}
         </p>
 
-        {/* Insights */}
-        {msg.insights?.length > 0 && (
-          <div className="mt-3 space-y-1.5">
-            {msg.insights.map((item, index) => (
-              <div
-                key={index}
-                className="flex gap-2 text-sm text-slate-600"
-              >
-                <span className="text-slate-300 mt-0.5">
-                  •
-                </span>
-
-                <span className="whitespace-pre-line">
-                  {item}
-                </span>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Next actions */}
-        {msg.next_actions?.length > 0 && (
-          <div className="mt-3 pt-3 border-t border-slate-100">
-            <div className="font-mono text-xs font-medium text-slate-400 mb-1.5 uppercase tracking-wide">
-              Suggested next steps
+        {msg.sources?.length > 0 && (
+          <div className="mt-4 pt-3 border-t border-slate-100">
+            <div className="font-mono text-xs text-slate-400 uppercase tracking-wide mb-2">
+              Sources
             </div>
 
-            <div className="space-y-1.5">
-              {msg.next_actions.map(
-                (item, index) => (
-                  <div
-                    key={index}
-                    className="flex gap-2 text-sm text-slate-700"
-                  >
-                    <ArrowRight
-                      className="w-3.5 h-3.5 mt-0.5 shrink-0"
-                      style={{
-                        color: skill.accent,
-                      }}
-                    />
-
-                    <span className="whitespace-pre-line">
-                      {item}
-                    </span>
-                  </div>
-                )
-              )}
+            <div className="space-y-1">
+              {msg.sources.map((source, index) => (
+                <div
+                  key={index}
+                  className="text-xs text-slate-500"
+                >
+                  {source.source}
+                </div>
+              ))}
             </div>
           </div>
         )}
@@ -483,189 +426,58 @@ export default function AIChatAssistant() {
   ======================================================= */
 
   async function handleSend(text) {
-    const query = (text ?? input).trim();
+  const query = (text ?? input).trim();
 
-    if (!query || loading) return;
+  if (!query || loading) return;
 
-    setInput('');
+  setInput('');
+
+  setMessages((current) => [
+    ...current,
+    {
+      role: 'user',
+      content: query,
+    },
+  ]);
+
+  setLoading(true);
+  setLoadingLabel('Thinking...');
+
+  try {
+    const data = await callAssistant(query);
 
     setMessages((current) => [
       ...current,
       {
-        role: 'user',
-        content: query,
+        role: 'assistant',
+        intent: 'general',
+        response:
+          data.response ||
+          'No response generated.',
+        insights: [],
+        next_actions: [],
+        sources: data.sources || [],
       },
     ]);
+  } catch (error) {
+    console.error('Assistant error:', error);
 
-    setLoading(true);
-    setLoadingLabel('Reading your message...');
-
-    try {
-      /* ---------------------------------------------------
-         1. CLASSIFY INTENT
-      --------------------------------------------------- */
-
-      const intent = await classifyIntent(query);
-
-      const skill =
-        SKILLS[intent] || SKILLS.general;
-
-      setLoadingLabel(skill.loading);
-
-      /* ---------------------------------------------------
-         2. DETERMINE WEB SEARCH
-      --------------------------------------------------- */
-
-      const useWebSearch =
-        intent === 'research_company' ||
-        intent === 'find_buying_signals' ||
-        intent === 'pricing_and_docs';
-
-      /* ---------------------------------------------------
-         3. RETRIEVE RAG KNOWLEDGE
-      --------------------------------------------------- */
-
-      let ragContext = '';
-      let ragSources = [];
-
-      try {
-        const ragResponse = await fetch(
-          `${RAG_API_URL}/retrieve`,
-          {
-            method: 'POST',
-
-            headers: {
-              'Content-Type':
-                'application/json',
-            },
-
-            body: JSON.stringify({
-              query,
-            }),
-          }
-        );
-
-        if (ragResponse.ok) {
-          const ragData =
-            await ragResponse.json();
-
-          ragContext =
-            ragData.context || '';
-
-          ragSources =
-            ragData.sources || [];
-        }
-      } catch (ragError) {
-        console.warn(
-          'RAG retrieval unavailable:',
-          ragError
-        );
-      }
-
-      /* ---------------------------------------------------
-         4. BUILD MESSAGE FOR LLM
-      --------------------------------------------------- */
-
-      let finalMessage;
-
-      if (ragContext) {
-        finalMessage = `Use the retrieved knowledge below as the primary source of truth when answering the user's question.
-
-IMPORTANT:
-- Prefer the retrieved knowledge over assumptions.
-- Do not invent facts that are not supported by the retrieved knowledge.
-- If the retrieved knowledge does not contain enough information, clearly say that the information is not available in the current knowledge base.
-- Keep the answer concise and useful.
-- Preserve important factual details such as prices, plans, platform names and features exactly as provided.
-
-Retrieved knowledge:
-${ragContext}
-
-====================
-
-User question:
-${query}`;
-      } else {
-        finalMessage = `No relevant knowledge-base information was retrieved.
-
-User question:
-${query}`;
-      }
-
-      /* ---------------------------------------------------
-         5. GENERATE RESPONSE
-      --------------------------------------------------- */
-
-      const raw = await callClaude({
-        system: skill.system,
-        message: finalMessage,
-        useWebSearch,
-      });
-
-      /* ---------------------------------------------------
-         6. PARSE RESPONSE
-      --------------------------------------------------- */
-
-      const parsed =
-        parseSkillResponse(raw);
-
-      /* ---------------------------------------------------
-         7. UPDATE UI
-      --------------------------------------------------- */
-
-      setMessages((current) => [
-        ...current,
-
-        {
-          role: 'assistant',
-
-          intent,
-
-          response:
-            parsed.response ||
-            'No response generated.',
-
-          insights:
-            Array.isArray(parsed.insights)
-              ? parsed.insights
-              : [],
-
-          next_actions:
-            Array.isArray(
-              parsed.next_actions
-            )
-              ? parsed.next_actions
-              : [],
-
-          sources: ragSources,
-        },
-      ]);
-    } catch (error) {
-      console.error(
-        'Assistant error:',
-        error
-      );
-
-      setMessages((current) => [
-        ...current,
-
-        {
-          role: 'assistant',
-
-          intent: 'general',
-
-          response:
-            'I hit an error reaching the assistant. Please try again.',
-
-          insights: [],
-
-          next_actions: [],
-        },
-      ]);
-    } finally {
-      setLoading(false);
-    }
+    setMessages((current) => [
+      ...current,
+      {
+        role: 'assistant',
+        intent: 'general',
+        response:
+          'I hit an error reaching the assistant. Please try again.',
+        insights: [],
+        next_actions: [],
+      },
+    ]);
+  } finally {
+    setLoading(false);
+    setLoadingLabel('Thinking...');
   }
+}
 
   /* =======================================================
      UI
