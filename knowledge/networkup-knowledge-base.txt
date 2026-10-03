@@ -1,0 +1,1154 @@
+NETWORKUP.IO — COMPLETE RAG KNOWLEDGE BASE
+==================================================
+
+PURPOSE
+==================================================
+
+This document consolidates the NetworkUp.io product, feature, workflow, pricing, integration, API, privacy-policy and terms-of-service information supplied and reviewed in this conversation.
+
+For product behavior, use the product/workflow material.
+For pricing, use the updated pricing supplied in this conversation.
+For privacy, legal, data-security, account-responsibility and LinkedIn-compliance questions, use the Privacy Policy and Terms of Service material.
+
+Do not invent facts that are not contained in this knowledge base.
+
+==================================================
+1. COMPANY AND PRODUCT OVERVIEW
+==================================================
+
+NetworkUp.io is an AI-powered LinkedIn growth and outreach platform designed to help users discover prospects, automate outreach, manage conversations and turn professional connections into opportunities.
+
+The platform is positioned for:
+- Sales teams
+- Recruiters
+- Agencies
+- Founders
+- Consultants
+- B2B marketing teams
+- SaaS companies
+- Enterprise teams
+- Revenue teams
+- SDRs
+- BDRs
+
+NetworkUp combines:
+- Prospect discovery
+- Lead management
+- LinkedIn outreach
+- Multi-step campaigns
+- AI personalization
+- Conversation management
+- Analytics
+- Account management
+- CRM integrations
+- Automation
+
+The overall product workflow is:
+
+1. Connect Accounts
+2. Discover Prospects
+3. Set Up Automations
+4. Analyze & Scale
+
+==================================================
+2. CORE PRODUCT AREAS
+==================================================
+
+NetworkUp's product areas include:
+
+- Dashboard
+- ConvoBox
+- Lead Finder
+- Campaigns
+- Campaign Builder
+- AI Content Studio
+- Engagement Automation
+- AI Workspace / AI Writer
+- Automation Logs
+- Integrations
+- API & Webhooks
+- Lead Database
+- Analytics
+- AI Copilot
+
+==================================================
+3. CONNECT YOUR ACCOUNTS
+==================================================
+
+NetworkUp supports connecting professional-network and business tools to streamline workflows.
+
+Documented integrations include:
+- LinkedIn
+- HubSpot
+- Salesforce
+- Slack
+- Google Workspace
+- Calendly
+- Zapier
+- Intercom
+- API
+- Webhooks
+
+The integration system is designed to synchronize leads, contacts and opportunities with connected tools.
+
+Integration/security benefits described include:
+- AES-256 Bit Encryption
+- Real-time CRM Sync
+- OAuth Secure Linking
+- Auto-De-duplication
+
+CRM integrations allow data to flow between NetworkUp and connected CRM systems.
+
+==================================================
+4. LEAD FINDER / DISCOVER PROSPECTS
+==================================================
+
+Lead Finder is NetworkUp's prospect-discovery system.
+
+The product material states that users can search over 250 million verified B2B contacts across 15 million companies.
+
+Lead Finder is designed to help users identify prospects matching an ideal customer profile (ICP).
+
+Basic search fields include:
+- Job title
+- Keywords
+- Company
+- Location
+
+Filters include:
+- Lead
+- Company
+- Location
+- Industry
+- Employees
+- Status
+- Intent
+- Job title
+- Department
+- Seniority
+- Revenue
+- Revenue tier
+- Company size
+- Industry vertical
+- CRM used
+- Tech stack
+- Cloud provider
+- Marketing tools
+- Previous companies
+- Funding stage
+- Funding period
+- Hiring status
+- Employee growth
+- LinkedIn activity
+- Company type
+- Headquarters
+- News mentions
+- Website updates
+- Intent signals
+- Current role duration
+
+Intent-related signals can include:
+- Recently funded
+- Hiring
+- News mentions
+- Website updates
+- LinkedIn activity
+- Employee growth
+
+Users can:
+- Search prospects
+- Sort prospects by relevance
+- Filter prospects
+- Export leads
+- Move prospects into campaigns
+
+Lead management features include:
+- Advanced filtering and search
+- Bulk actions
+- Export data
+- Smart tags
+- Segmentation
+- Centralized lead storage
+- Prospect and account management
+
+==================================================
+5. LEAD DATABASE
+==================================================
+
+NetworkUp provides a centralized place to store, organize and manage leads, prospects and accounts.
+
+The database supports:
+- Search
+- Advanced filtering
+- Bulk actions
+- Export
+- Smart tags
+- Segmentation
+- Lead organization
+- Prospect management
+- Account management
+
+The purpose is to keep lead data clean and actionable.
+
+==================================================
+6. IMPORTING LEADS
+==================================================
+
+NetworkUp supports importing existing lead data.
+
+Supported formats:
+- CSV
+- XLSX
+
+Import workflow:
+
+1. Upload the CSV or XLSX file.
+2. Map the columns to NetworkUp fields.
+3. Validate the data.
+4. Start outreach.
+
+NetworkUp supports multiple data sources for getting leads into the platform.
+
+==================================================
+7. CAMPAIGN BUILDER
+==================================================
+
+Campaign Builder is used to create multi-step outreach campaigns.
+
+Campaigns can contain:
+- Multiple actions
+- Delays
+- Conditional branches
+- Personalization
+- Variables
+- Timing controls
+- Termination conditions
+
+Campaign actions include:
+- Connection Request
+- Send Message
+- Send InMail
+- View Profile
+- Follow Company
+- Like Recent Post
+- Retry Connection
+- Send Welcome Message
+- Send Follow-up Message
+- Move to CRM
+- Assign Lead
+- Create Task
+- Add Tag
+- End Campaign
+
+Users can preview sequences, test campaigns and publish changes.
+
+==================================================
+8. CAMPAIGN TIMING AND DELAYS
+==================================================
+
+Campaign timing can use:
+- Wait days
+- Time windows
+- Business days only
+- AI-recommended best time
+
+Example delays shown in the product include:
+- Wait 1 Day
+- Wait 2 Days
+- Wait 5 Days
+
+Campaigns can be configured to wait between actions.
+
+==================================================
+9. CONDITIONAL CAMPAIGN LOGIC
+==================================================
+
+NetworkUp supports conditional logic.
+
+Conditions include:
+- If Connected
+- If Connection Accepted
+- If Replied
+- If No Reply
+- If Message Seen
+- If Profile Viewed
+
+Example:
+
+Send Connection Request
+→ Wait
+→ Check whether connection was accepted
+→ If YES: continue to messaging
+→ If NO: follow the configured alternative path
+
+Another example:
+
+Send Message
+→ Wait 2 Days
+→ Check whether the prospect replied
+→ If YES: stop or follow the configured response workflow
+→ If NO: send a follow-up
+
+Campaigns can therefore branch according to prospect behavior rather than following only one fixed sequence.
+
+==================================================
+10. PERSONALIZED OUTREACH
+==================================================
+
+NetworkUp supports Personalized Tokens and AI Variables.
+
+Dynamic personalization can insert relevant prospect information automatically.
+
+Examples include:
+- First name
+- Company information
+- Company news
+- Shared alma mater
+- Other available prospect details
+
+The campaign builder supports:
+- Personalize
+- AI Improve
+- AI Rewrite
+- New variation
+
+Character counts can be displayed while creating messages.
+
+==================================================
+11. AI WORKSPACE / AI WRITER
+==================================================
+
+NetworkUp's AI Writer helps users create personalized outreach messages.
+
+Users can configure outreach context using:
+- Lead name
+- Company
+- Role/title
+- Key value proposition
+- Target channel
+- Desired tone
+
+The AI Writer can generate:
+- Connection requests
+- Follow-up messages
+- Outreach messages
+- Message variations
+
+Users can:
+- Generate copies
+- Compare variations
+- Adjust tone
+- Select a version
+- Save and reuse templates
+
+The product material describes AI-powered personalization and multiple tones/styles.
+
+==================================================
+12. AI CONTENT STUDIO
+==================================================
+
+AI Content Studio is designed to help create:
+- Personalized messages
+- Follow-up ideas
+- Icebreakers
+- InMails
+- Outreach copy
+
+It can also improve existing messages.
+
+==================================================
+13. CONVOBOX
+==================================================
+
+ConvoBox is NetworkUp's centralized conversation workspace.
+
+It is designed to let users manage LinkedIn conversations in one place.
+
+ConvoBox can provide:
+- Conversation history
+- Lead context
+- Previous campaign activity
+- AI-assisted reply drafting
+- Smart follow-up generation
+- Conversation management across accounts
+
+==================================================
+14. SMART AI FOLLOW-UPS
+==================================================
+
+Smart AI Follow-ups use available conversation history, previous outreach and prospect information to create context-aware follow-up drafts.
+
+General process:
+
+1. Understand the available conversation context.
+2. Generate a context-aware follow-up.
+3. Review the draft.
+4. Edit or adjust it if needed.
+5. Send or schedule it.
+
+The user remains in control of the generated message.
+
+==================================================
+15. ENGAGEMENT AUTOMATION
+==================================================
+
+NetworkUp provides engagement automation for incoming conversations and relevant engagement.
+
+An engagement automation can be configured using:
+- Basic information
+- Target words / keywords
+- Reply flow
+- Sender profile
+- Final review
+
+The automation is designed to respond according to configured conditions and conversation context.
+
+A documented connection/message workflow can be:
+
+1. Check whether the lead is already connected.
+2. If not connected, send a connection request.
+3. After the connection is accepted, send a personalized message.
+4. When the lead replies, manage the conversation through the unified inbox.
+
+Automation can stop when:
+- A lead replies
+- A lead is removed
+- A lead is marked as the wrong person
+- The sequence ends
+
+==================================================
+16. AUTOMATION LOGS
+==================================================
+
+Automation Logs track:
+- Automation events
+- Workflow executions
+- AI actions
+- System activity
+- Successful actions
+- Failed actions
+- Pending actions
+- Queue status
+
+Users can export automation logs as CSV.
+
+Time filters include:
+- Today
+- Yesterday
+- Last 7 Days
+- Last 30 Days
+- Last 90 Days
+- This year
+
+Execution information can include:
+- Action
+- Prospect
+- Campaign
+- Status
+- Execution time
+- Failure reason
+- Safety warning
+
+The product material shows examples where activity can be paused for account protection after limits are reached.
+
+==================================================
+17. SMART TRIGGERS
+==================================================
+
+Smart triggers can execute actions based on events such as:
+- Profile views
+- Accepted invitations
+- Link clicks
+
+This allows automation to react to prospect behavior.
+
+==================================================
+18. DYNAMIC PERSONALIZATION
+==================================================
+
+Dynamic personalization can automatically insert relevant information into messages.
+
+Examples:
+- First names
+- Company news
+- Shared alma mater
+
+The purpose is to make automated outreach more contextual.
+
+==================================================
+19. CAMPAIGN ANALYTICS
+==================================================
+
+NetworkUp provides campaign and outreach performance information.
+
+Metrics can include:
+- New connections
+- Messages sent
+- Reply rate
+- Active campaigns
+- Qualified leads
+- Connections sent
+- Connections accepted
+- Replies received
+- Meetings booked
+
+Campaign-level information can include:
+- Progress
+- Leads sent
+- Replies
+- CTR
+
+NetworkUp provides weekly performance analysis.
+
+The platform also supports A/B testing insights for comparing messaging variations and identifying strategies associated with higher ROI.
+
+==================================================
+20. AI CAMPAIGN OPTIMIZATION
+==================================================
+
+NetworkUp includes AI-oriented campaign optimization capabilities.
+
+The platform can provide:
+- AI campaign analysis
+- AI recommendations
+- AI health monitoring
+- Messaging variation analysis
+- Campaign performance insights
+
+==================================================
+21. RELATIONSHIP INTELLIGENCE AND OPPORTUNITIES
+==================================================
+
+NetworkUp describes relationship intelligence as using engagement and historical patterns to provide contextual insights, identify buying intent and suggest potential next actions.
+
+The Opportunity Center is intended to surface valuable prospects and sales opportunities.
+
+The Campaign Simulator is intended to help estimate campaign performance before launch using historical outreach information and AI insights.
+
+==================================================
+22. SOLUTIONS
+==================================================
+
+SALES TEAMS
+
+NetworkUp can be used by SDRs, AEs and sales leaders for:
+- Prospect discovery
+- AI-personalized outreach
+- Follow-ups
+- Multi-account management
+- Campaign management
+- Lead management
+- Performance tracking
+- CRM-connected workflows
+
+AGENCIES
+
+Agency use cases include:
+- Multi-client workspaces
+- Client campaign organization
+- Multiple account management
+- Client reporting
+- Campaign performance visibility
+- Client-level data organization
+- Role-based access
+
+RECRUITERS
+
+Recruiter use cases include:
+- Candidate sourcing
+- Candidate outreach
+- Candidate pipeline management
+- Recruiter coordination
+- Candidate ownership rules
+- Candidate status tracking
+- Conversation history
+- Outreach history
+
+STARTUPS
+
+Startup use cases include:
+- Prospect discovery
+- High-intent lead prioritization
+- AI-personalized outreach
+- Follow-up automation
+- ICP testing
+- Messaging experimentation
+- Campaign analytics
+- CRM workflows
+
+MARKETING TEAMS
+
+Marketing use cases include:
+- Target-account discovery
+- Decision-maker discovery
+- AI personalization
+- Account-based outreach
+- Engagement
+- Analytics
+- CRM synchronization
+
+==================================================
+23. ACCOUNT SAFETY AND AUTOMATION CONTROLS
+==================================================
+
+NetworkUp describes controlled activity, pacing and limits as part of its automation approach.
+
+The product material shows:
+- Activity controls
+- Campaign pacing
+- Smart delays
+- Automation limits
+- Safety warnings
+- Account pausing when activity limits are reached
+
+A product example shows a daily invite limit being reached and the system pausing activity for account protection.
+
+NetworkUp does not guarantee that a LinkedIn account will never be restricted.
+
+The Terms state that users are responsible for ensuring their use of NetworkUp automation complies with LinkedIn's current Terms of Service.
+
+NetworkUp.ai states that it is not liable for account restrictions imposed by third-party platforms.
+
+==================================================
+24. API AND WEBHOOKS
+==================================================
+
+NetworkUp provides an API for programmatic access to outreach data and automation.
+
+The API is described as:
+- RESTful
+- Secure
+- OAuth 2.0 compatible
+- Developer friendly
+- Flexible
+- Webhook enabled
+- Suitable for real-time event delivery
+
+API base URL:
+https://api.networkup.io/v1
+
+The documented API version is v1.
+
+Authentication methods include:
+- OAuth 2.0 for user-facing applications
+- API keys for server-to-server integrations
+
+API keys should not be placed in public repositories or client-side code.
+
+API capabilities include:
+- Lead discovery and enrichment
+- Campaign execution
+- Conversation management
+- Reply retrieval
+- Intent classification
+- Lead routing
+- Data synchronization
+- Bi-directional synchronization
+- Raw event-log export for custom BI dashboards
+
+==================================================
+25. PRICING — CURRENT
+==================================================
+
+NetworkUp currently presents three plans:
+- Starter
+- Growth
+- Enterprise
+
+Users can choose monthly or yearly billing.
+
+Yearly billing is advertised as 20% OFF.
+
+STARTER
+
+Monthly price: $19/month
+Yearly price: $15/month
+
+Target audience:
+Individuals.
+
+Account Management:
+- 1 LinkedIn Account
+
+Messaging:
+- 500 Messages / month
+
+Automation Intelligence:
+- Basic Personalization
+
+Data & Integration:
+- Basic Lead Database
+- Read-only API
+
+GROWTH
+
+Monthly price: $59/month
+Yearly price: $49/month
+
+Target audience:
+Professional sales teams.
+
+Account Management:
+- 5 LinkedIn Accounts
+- Multi-workspace
+
+Automation Intelligence:
+- Daily activity reports
+- Advanced AI Personalization
+- Sequence Branching
+- 2-Variant A/B Testing
+- Priority Execution
+
+Data & Integration:
+- Full CRM Sync
+- Custom Webhooks
+- Extended Database
+
+ENTERPRISE
+
+Monthly price: $129/month
+Yearly price: $99/month
+
+Target audience:
+Organizations at scale.
+
+Account Management:
+- Custom Org Limits
+- SSO / SAML Setup
+
+Automation Intelligence:
+- Custom Logic Engine
+- Regional Compliance
+- Priority Execution
+
+Data & Integration:
+- Full CRM Sync
+- Custom Webhooks
+- On-prem Hosting Option
+- Audit Logging
+
+PRICING FLEXIBILITY
+
+The pricing page states that users can upgrade, downgrade or cancel anytime.
+
+==================================================
+26. TRIAL
+==================================================
+
+NetworkUp promotes a 14-day free trial.
+
+The website states:
+- Start 14-Day Free Trial
+- No credit card required
+
+==================================================
+27. PRIVACY POLICY — OVERVIEW
+==================================================
+
+NetworkUp.ai states that it takes user privacy seriously.
+
+The Privacy Policy explains how personal information is collected, used and protected when users use the platform.
+
+Using NetworkUp.ai constitutes agreement to the applicable policy and terms.
+
+Privacy questions can be directed to:
+privacy@networkup.ai
+
+==================================================
+28. INFORMATION NETWORKUP COLLECTS
+==================================================
+
+Account Data:
+- Name
+- Email address
+- Password
+- Billing information
+
+Integration Data:
+- LinkedIn profile URLs
+- Session cookies required for automation
+- User preferences
+
+Automatically Collected Information:
+- Usage data
+- How the service is accessed and used
+- IP addresses
+- Browser types
+- Diagnostic data
+
+==================================================
+29. HOW NETWORKUP USES INFORMATION
+==================================================
+
+NetworkUp states that collected data is used to provide, maintain and improve its services.
+
+Uses include:
+- Executing automated LinkedIn campaigns
+- Generating analytics and performance reports
+- Providing customer support
+- Responding to inquiries
+- Detecting technical issues
+- Preventing technical or security issues
+- Addressing technical or security issues
+
+==================================================
+30. LINKEDIN SESSION COOKIES AND CREDENTIALS
+==================================================
+
+The Privacy Policy states that LinkedIn session cookies required for automation are collected as integration data.
+
+Sensitive credentials, including LinkedIn session cookies, are encrypted using AES-256 before being stored in secure database clusters.
+
+Users are responsible for ensuring their use of automation complies with LinkedIn's current Terms of Service.
+
+==================================================
+31. COOKIES AND TRACKING
+==================================================
+
+NetworkUp uses cookies and similar tracking technologies.
+
+Cookies may contain an anonymous unique identifier.
+
+Cookies are used to track service activity and hold certain information.
+
+Users can configure their browser to refuse cookies or indicate when a cookie is being sent.
+
+Refusing cookies may prevent some portions of the service from functioning, particularly authentication features required for secure operation.
+
+==================================================
+32. DATA SECURITY
+==================================================
+
+NetworkUp states that data security is a priority.
+
+The company uses enterprise-grade encryption for:
+- Data at rest
+- Data in transit
+
+NetworkUp also states that no Internet transmission or electronic storage method is 100% secure, while commercially acceptable measures are used to protect personal data.
+
+Sensitive credentials, including LinkedIn session cookies, are encrypted using AES-256 before storage.
+
+==================================================
+33. PRIVACY RIGHTS
+==================================================
+
+Under applicable data protection laws, such as GDPR and CCPA, users may have rights concerning their personal information.
+
+RIGHT TO ACCESS:
+Request a copy of the personal data NetworkUp holds.
+
+RIGHT TO RECTIFICATION:
+Request correction of inaccurate or incomplete data.
+
+RIGHT TO ERASURE:
+Request deletion of personal data, also known as the Right to be Forgotten.
+
+RIGHT TO OBJECT:
+Object to processing of personal data.
+
+To exercise these rights, contact the Data Protection Officer:
+
+dpo@networkup.ai
+
+NetworkUp states that it aims to respond to legitimate requests within one month.
+
+==================================================
+34. TERMS — ACCEPTANCE AND ELIGIBILITY
+==================================================
+
+By accessing and using NetworkUp.ai, users accept the Terms and Conditions.
+
+Participation in the service constitutes acceptance of the agreement.
+
+Users must be at least 18 years old to use the service.
+
+Users must provide current and accurate identification, contact and other information required during registration.
+
+==================================================
+35. ACCOUNT RESPONSIBILITIES
+==================================================
+
+Users are responsible for maintaining the confidentiality of their service password and account.
+
+Users are responsible for all activities that occur under their account.
+
+Users agree to notify NetworkUp immediately of unauthorized account use or another security breach.
+
+Users may not use the service for illegal or unauthorized purposes.
+
+==================================================
+36. NETWORKUP'S RIGHT TO REFUSE OR REMOVE CONTENT
+==================================================
+
+NetworkUp reserves the right to refuse service to anyone for any reason.
+
+NetworkUp may remove content or accounts containing content that it determines to be:
+- Unlawful
+- Offensive
+- Threatening
+- Libelous
+- Defamatory
+- Pornographic
+- Obscene
+- Otherwise objectionable
+
+==================================================
+37. SERVICE AVAILABILITY AND CHANGES
+==================================================
+
+The service is provided "as is."
+
+NetworkUp.ai reserves the right to modify, suspend or discontinue the service or any part of it with or without notice.
+
+==================================================
+38. INTELLECTUAL PROPERTY
+==================================================
+
+The NetworkUp.ai service and its original content, features and functionality remain the exclusive property of NetworkUp.ai and its licensors.
+
+The service is protected by copyright, trademark and other laws.
+
+NetworkUp trademarks and trade dress may not be used in connection with another product or service without prior written consent.
+
+==================================================
+39. LIMITATION OF LIABILITY
+==================================================
+
+The Terms state that NetworkUp.ai and its directors, employees, partners, agents, suppliers and affiliates are not liable for indirect, incidental, special, consequential or punitive damages.
+
+Examples include losses involving:
+- Profits
+- Data
+- Use
+- Goodwill
+- Other intangible losses
+
+The stated limitations cover circumstances including:
+- Access to or use of the service
+- Inability to access or use the service
+- Conduct or content of third parties
+- Content obtained from the service
+- Unauthorized access, use or alteration of transmissions or content
+
+==================================================
+40. TERMINATION
+==================================================
+
+NetworkUp.ai may terminate or suspend an account immediately, without prior notice or liability, including when a user breaches the Terms.
+
+Upon termination, the user's right to use the service immediately ceases.
+
+A user who wishes to terminate an account may discontinue using the service.
+
+==================================================
+41. SUPPORT AND CONTACTS
+==================================================
+
+Privacy:
+privacy@networkup.ai
+
+Data Protection Officer:
+dpo@networkup.ai
+
+Technical assistance / troubleshooting:
+support@networkup.io
+
+The website also provides Help Center and API Documentation resources.
+
+==================================================
+42. LEGAL / PRIVACY FAQ
+==================================================
+
+Question: How old do I need to be to use NetworkUp?
+Answer: Users must be at least 18 years old.
+
+Question: What personal information does NetworkUp collect?
+Answer: Account information includes name, email address, password and billing information. Integration data includes LinkedIn profile URLs, session cookies required for automation and user preferences. Automatically collected data includes usage data, IP addresses, browser types and diagnostic data.
+
+Question: Does NetworkUp store LinkedIn session cookies?
+Answer: The Privacy Policy states that LinkedIn session cookies required for automation are collected as integration data and that sensitive credentials, including LinkedIn session cookies, are encrypted using AES-256 before being stored.
+
+Question: Is my data encrypted?
+Answer: NetworkUp states that it uses enterprise-grade encryption for data at rest and in transit, and AES-256 encryption for sensitive credentials such as LinkedIn session cookies.
+
+Question: Is NetworkUp responsible if my LinkedIn account is restricted?
+Answer: The Terms state that users are responsible for ensuring automation use complies with LinkedIn's current Terms of Service. NetworkUp.ai states that it is not liable for restrictions imposed by third-party platforms.
+
+Question: Can I request deletion of my personal data?
+Answer: Yes. The Privacy Policy describes a Right to Erasure under applicable data protection laws.
+
+Question: Can I request access to my personal data?
+Answer: Yes. Users can request a copy of personal data held by NetworkUp.
+
+Question: Can I correct my personal information?
+Answer: Yes. Users can request correction of inaccurate or incomplete information.
+
+Question: Can I object to processing?
+Answer: Yes. The Privacy Policy describes a Right to Object under applicable data protection laws.
+
+Question: How long does NetworkUp take to respond to privacy requests?
+Answer: NetworkUp states that it aims to respond to legitimate requests within one month.
+
+Question: Does NetworkUp use cookies?
+Answer: Yes. NetworkUp uses cookies and similar tracking technologies.
+
+Question: What happens if I disable cookies?
+Answer: Some portions of the service, particularly authentication features required for secure operation, may not function.
+
+Question: Can NetworkUp terminate my account?
+Answer: Yes. NetworkUp may terminate or suspend an account immediately, including when the Terms are breached.
+
+Question: Can NetworkUp change or discontinue the service?
+Answer: Yes. The Terms state that NetworkUp may modify, suspend or discontinue the service or any part of it with or without notice.
+
+Question: Who is responsible for activity performed through my account?
+Answer: Users are responsible for all activities occurring under their account and for maintaining account confidentiality.
+
+Question: Who should I contact about privacy concerns?
+Answer: privacy@networkup.ai
+
+Question: Who should I contact to exercise data protection rights?
+Answer: dpo@networkup.ai
+
+Question: Who should I contact for technical support?
+Answer: support@networkup.io
+
+==================================================
+43. PRODUCT FAQ
+==================================================
+
+Question: What is NetworkUp?
+Answer: NetworkUp.io is an AI-powered LinkedIn growth and outreach platform for discovering prospects, creating personalized campaigns, managing conversations and converting professional connections into opportunities.
+
+Question: Who is NetworkUp for?
+Answer: NetworkUp is designed for sales teams, recruiters, agencies, founders, consultants, B2B marketing teams, SaaS companies, enterprise teams, revenue teams, SDRs and BDRs.
+
+Question: Can NetworkUp create automated LinkedIn campaigns?
+Answer: Yes. Users can build automated outreach sequences containing personalized connection requests, messages, follow-ups and workflow conditions.
+
+Question: Does NetworkUp generate AI messages?
+Answer: Yes. NetworkUp's AI Writer can generate connection requests, follow-ups, outreach messages and message variations.
+
+Question: Can NetworkUp personalize messages?
+Answer: Yes. It supports Personalized Tokens, AI Variables and AI-based personalization.
+
+Question: Can NetworkUp manage multiple LinkedIn accounts?
+Answer: Yes. Multiple-account management is available according to the plan and account-management limits.
+
+Question: Does NetworkUp have a unified inbox?
+Answer: Yes. ConvoBox is the centralized conversation workspace.
+
+Question: Can NetworkUp pause automation?
+Answer: Yes. Campaigns can stop or pause based on replies, configured conditions and account activity limits.
+
+Question: Does NetworkUp send unlimited connection requests?
+Answer: No. NetworkUp uses configured activity controls and limits.
+
+Question: What happens when an activity limit is reached?
+Answer: The product material shows that activity can be paused for account protection and that the system can provide warnings or recommendations.
+
+Question: Can NetworkUp guarantee that a LinkedIn account will never be restricted?
+Answer: No such guarantee is stated. The Terms specifically state that users are responsible for complying with LinkedIn's current Terms of Service and that NetworkUp is not liable for restrictions imposed by third-party platforms.
+
+Question: Does NetworkUp integrate with CRMs?
+Answer: Yes. Documented CRM integrations include HubSpot and Salesforce. The platform also provides API and webhook capabilities.
+
+Question: Can leads be imported?
+Answer: Yes. CSV and XLSX files can be uploaded, mapped and validated before outreach.
+
+Question: Does NetworkUp provide an API?
+Answer: Yes. NetworkUp provides a REST API with v1 documentation and OAuth 2.0/API-key authentication.
+
+Question: What can the API do?
+Answer: API capabilities include lead discovery and enrichment, campaign execution, conversation management, reply retrieval, intent classification, lead routing, synchronization and event-log access.
+
+Question: Does NetworkUp provide a free trial?
+Answer: The website promotes a 14-day free trial with no credit card required.
+
+==================================================
+44. HOW TO USE NETWORKUP — QUICK GUIDE
+==================================================
+
+1. CONNECT
+Connect LinkedIn and supported CRM/business tools.
+
+2. DISCOVER
+Use Lead Finder to search and filter prospects.
+
+3. ORGANIZE
+Store, tag, segment and manage leads.
+
+4. IMPORT
+Upload CSV/XLSX files if using an existing lead list.
+
+5. CREATE
+Build a multi-step campaign.
+
+6. PERSONALIZE
+Use Personalized Tokens and AI-generated messaging.
+
+7. AUTOMATE
+Configure actions, delays, triggers and conditional branches.
+
+8. MONITOR
+Review Automation Logs, campaign activity and safety warnings.
+
+9. ENGAGE
+Manage replies and conversations through ConvoBox.
+
+10. ANALYZE
+Review connections, replies, meetings and campaign performance.
+
+11. OPTIMIZE
+Use AI insights and A/B testing to improve campaign messaging and workflows.
+
+==================================================
+45. CAMPAIGN EXAMPLE
+==================================================
+
+Example campaign:
+
+Start Sequence
+→ Send Connection Request
+→ Wait
+→ Check If Connection Accepted
+→ If YES: Send Message
+→ Wait 2 Days
+→ Check If Replied
+→ If YES: End or follow configured reply workflow
+→ If NO: Send Follow-up Message
+→ Continue or End Campaign
+
+Other available actions can include:
+- View Profile
+- Like Recent Post
+- Follow Company
+- Assign Lead
+- Add Tag
+- Create Task
+- Move to CRM
+- End Campaign
+
+==================================================
+46. SOURCE PRIORITY RULES FOR THE CHATBOT
+==================================================
+
+For pricing questions:
+Use the CURRENT pricing section in this document.
+
+For product/workflow questions:
+Use the product and workflow sections.
+
+For privacy, data collection, cookies, security, user rights, account responsibilities, liability, termination and LinkedIn compliance:
+Use the Privacy Policy and Terms sections.
+
+Do not invent privacy guarantees, legal rights, product limits, pricing, integrations or features that are not stated here.
+
+When a user asks what the NetworkUp policy says, answer based on the policy.
+
+When a user asks for a legal interpretation rather than what the policy states, distinguish the policy text from legal advice and do not invent an interpretation.
+
+==================================================
+END OF NETWORKUP.IO COMPLETE RAG KNOWLEDGE BASE
+==================================================

@@ -5,12 +5,14 @@ import dotenv from "dotenv";
 import chatRoutes from "./routes/chatRoutes";
 import uploadRoutes from "./routes/uploadRoutes";
 import retrievalRoutes from "./routes/retrievalRoutes";
+import conversationRoutes from "./routes/conversationRoutes";
 
-import {
-    initializeEmbeddingCache
-} from "./services/embeddingCache";
+import { initializeEmbeddingCache } from "./services/embeddingCache";
+import { initializeFirebaseAdmin } from "./config/firebaseAdmin";
 
 dotenv.config();
+
+initializeFirebaseAdmin();
 
 const app = express();
 
@@ -23,6 +25,8 @@ app.use("/", chatRoutes);
 app.use("/", uploadRoutes);
 
 app.use("/", retrievalRoutes);
+
+app.use("/api", conversationRoutes);
 
 app.get("/", (_req, res) => {
 

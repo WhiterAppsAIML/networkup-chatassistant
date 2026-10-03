@@ -8,5 +8,5 @@ export const config = {
     CHUNK_SIZE: 500,
     CHUNK_OVERLAP: 100,
     TOP_K: 3,
-    MIN_SIMILARITY_SCORE: 0.35
+    MIN_SIMILARITY_SCORE: Number(process.env.MIN_SIMILARITY_SCORE) || 0.7
 };

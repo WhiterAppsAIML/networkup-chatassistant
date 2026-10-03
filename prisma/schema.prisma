@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextIndex"]
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum AgentType {
+  AI
+  BOT
+  HUMAN
+}
+
+enum ConversationOrigin {
+  OUTER
+  INNER
+}
+
+enum ConversationStatus {
+  OPEN
+  PENDING_HUMAN
+  ASSIGNED
+  CLOSED
+}
+
+enum SenderType {
+  USER
+  ASSISTANT
+  SYSTEM
+}
+
+model User {
+  id            String         @id @default(cuid())
+  firebaseUid   String         @unique
+  email         String?
+  name          String?
+  avatarUrl     String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  conversations Conversation[]
+}
+
+model Conversation {
+  id          String           @id @default(cuid())
+  userId      String
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String?
+  origin      ConversationOrigin @default(INNER)
+  status      ConversationStatus @default(OPEN)
+  agentType   AgentType        @default(AI)
+  assignedAgentId String?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  messages    Message[]
+  @@index([userId, createdAt])
+}
+
+model Message {
+  id              String       @id @default(cuid())
+  conversationId  String
+  conversation    Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role            SenderType
+  content         String       @db.Text
+  sources         Json?
+  tokensUsed      Int?
+  createdAt       DateTime     @default(now())
+  @@index([conversationId, createdAt])
+}
+
+model HelpCollection {
+  id        String       @id @default(cuid())
+  name      String       @unique
+  slug      String       @unique
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+  articles  HelpArticle[]
+}
+
+model HelpArticle {
+  id            String        @id @default(cuid())
+  collectionId  String
+  collection    HelpCollection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  title         String
+  slug          String
+  body          String        @db.Text
+  tags          Json
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  @@unique([collectionId, slug])
+  @@fulltext([title, body])
+}
