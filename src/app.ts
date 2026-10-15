@@ -26,7 +26,7 @@ app.use("/", uploadRoutes);
 
 app.use("/", retrievalRoutes);
 
-app.use("/api", conversationRoutes);
+app.use("/", conversationRoutes);
 
 app.get("/", (_req, res) => {
 
