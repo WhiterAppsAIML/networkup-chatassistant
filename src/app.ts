@@ -27,7 +27,7 @@ app.use("/", uploadRoutes);
 
 app.use("/", retrievalRoutes);
 
-app.use("/api", conversationRoutes);
+app.use("/", conversationRoutes);
 
 app.use("/api/admin", adminRoutes);
 

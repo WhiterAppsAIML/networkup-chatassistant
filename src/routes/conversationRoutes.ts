@@ -17,12 +17,12 @@ router.use((req: Request, res: Response, next: NextFunction) => requireAuth(req 
 const wrap = (fn: (req: AuthenticatedRequest, res: Response) => Promise<void>) =>
   (req: Request, res: Response, next: NextFunction) => fn(req as AuthenticatedRequest, res).catch(next);
 
-router.post("/conversations", wrap(createConversationController));
-router.get("/conversations", wrap(listConversationsController));
-router.get("/conversations/:id", wrap(getConversationController));
-router.put("/conversations/:id", wrap(updateConversationController));
-router.delete("/conversations/:id", wrap(deleteConversationController));
-router.post("/conversations/:id/messages", wrap(sendMessageController));
-router.post("/conversations/:id/escalate", wrap(escalateConversationController));
+router.post("/chat-conversations", wrap(createConversationController));
+router.get("/chat-conversations", wrap(listConversationsController));
+router.get("/chat-conversations/:id", wrap(getConversationController));
+router.put("/chat-conversations/:id", wrap(updateConversationController));
+router.delete("/chat-conversations/:id", wrap(deleteConversationController));
+router.post("/chat-conversations/:id/messages", wrap(sendMessageController));
+router.post("/chat-conversations/:id/escalate", wrap(escalateConversationController));
 
 export default router;
