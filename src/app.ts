@@ -6,6 +6,7 @@ import chatRoutes from "./routes/chatRoutes";
 import uploadRoutes from "./routes/uploadRoutes";
 import retrievalRoutes from "./routes/retrievalRoutes";
 import conversationRoutes from "./routes/conversationRoutes";
+import adminRoutes from "./routes/adminRoutes";
 
 import { initializeEmbeddingCache } from "./services/embeddingCache";
 import { initializeFirebaseAdmin } from "./config/firebaseAdmin";
@@ -27,6 +28,8 @@ app.use("/", uploadRoutes);
 app.use("/", retrievalRoutes);
 
 app.use("/api", conversationRoutes);
+
+app.use("/api/admin", adminRoutes);
 
 app.get("/", (_req, res) => {
 

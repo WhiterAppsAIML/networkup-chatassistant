@@ -51,3 +51,40 @@ export function getFirebaseAuth(): Auth {
 export function isFirebaseInitialized(): boolean {
   return firebaseAuth !== null;
 }
+
+export interface UrgentNotificationData {
+  conversationId: string;
+  userName: string;
+  title: string;
+  body: string;
+}
+
+export async function sendUrgentNotification(
+  data: UrgentNotificationData
+): Promise<void> {
+  if (!isFirebaseInitialized()) {
+    console.warn("Firebase not initialized, cannot send notification");
+    return;
+  }
+
+  const token = process.env.ADMIN_FCM_TOKEN;
+  if (!token) {
+    console.warn("ADMIN_FCM_TOKEN not set, cannot send notification");
+    return;
+  }
+
+  const message = {
+    token,
+    notification: {
+      title: data.title,
+      body: `${data.body} - ${data.userName}`,
+    },
+    data: {
+      conversationId: data.conversationId,
+      type: "urgent_chat",
+    },
+  };
+
+  const auth = getFirebaseAuth();
+  await auth.send(message);
+}

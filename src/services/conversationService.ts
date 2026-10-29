@@ -2,6 +2,7 @@ import { prisma } from "../lib/prisma";
 import { retrieveRelevantContext } from "./ragService";
 import { generateResponse } from "./geminiService";
 import { config } from "../config/config";
+import { sendUrgentNotification } from "../config/firebaseAdmin";
 
 export interface ChatMessage {
   role: "user" | "assistant";
@@ -244,6 +245,14 @@ export async function escalateConversation(
       status: "PENDING_HUMAN",
       agentType: "HUMAN",
     },
+  });
+
+  // Send Firebase notification about urgent scenario
+  await sendUrgentNotification({
+    conversationId: conversation.id,
+    userName: conversation.user?.name || "Unknown",
+    title: "Urgent Scenario",
+    body: "Conversation escalated to human support",
   });
 
   await prisma.message.create({
